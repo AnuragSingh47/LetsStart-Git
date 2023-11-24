@@ -17,7 +17,7 @@ public class Assign03 {
 		int totalRolls = 0;
 
 		// sample the rolls
-		for(int count = 0; count < 1000; count++) {
+		for(int count = 0; count < 10; count++) {
 			roll = (int)(Math.random() * 20) + 1;
 			diceRolls[roll] = diceRolls[roll - 1] + 1; // crashes
 		}
@@ -27,6 +27,7 @@ public class Assign03 {
 			totalRolls = totalRolls + diceRolls[index];
 		}
 		System.out.println("Total rolls were: " + totalRolls);
-			}
+		System.out.println("I am Simranjeet Singh" );
+	}
 
 }
