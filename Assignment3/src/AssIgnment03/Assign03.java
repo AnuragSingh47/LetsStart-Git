@@ -27,6 +27,6 @@ public class Assign03 {
 			totalRolls = totalRolls + diceRolls[index];
 		}
 		System.out.println("Total rolls were: " + totalRolls);
-	}
+			}
 
 }
